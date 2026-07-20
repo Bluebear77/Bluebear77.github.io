@@ -3,20 +3,20 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Tirtharaj
+first_name: Fanfu
 middle_name: 
-last_name: Dash
-email: tirtharaj@goa.bits-pilani.ac.in
+last_name: WEI
+email: fanfu.wei at eurecom.fr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Tirtharaj Dash — Assistant Professor, CS, BITS Pilani, Goa Campus. Neurosymbolic AI, Deep Learning, and AI for Science.
+  Fanfu WEI — PhD Candidate, CS, EURECOM & Sorbonne université, sophia antipolis. Information Extraction, Knowledge Integration and Neurosymbolic AI.
 footer_text: >
   Design adapted from <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: tirtharaj dash, tirtharaj, personal website, github page  # add your own keywords or leave empty
+keywords: Fanfu WEI, github page  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: prof_pic3.jpg #⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://tirtharajdash.github.io # the base hostname & protocol for your site
+url: https://weifanfu.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -47,18 +47,18 @@ max_width: 960px
 # Display links to the page with a preview object on social media.
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: https://tirtharajdash.github.io/assets/img/prof_pic5.jpg
+og_image: https://weifanfu.github.io/blob/main/assets/foto/119409649.png
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: tirtharajdash
+github_username: Bluebear77
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: #tirtharajdash
-scholar_userid: 1ZcwKZEAAAAJ
-orcid_id: 0000-0001-5965-8286
+linkedin_username: #Fanfu WEI
+scholar_userid: kTNtKRoAAAAJ
+orcid_id: 0009-0008-4397-0492
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -67,7 +67,7 @@ blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-dblp_url: https://dblp.org/pid/131/6724
+dblp_url: # your dblp_url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
