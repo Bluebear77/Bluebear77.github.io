@@ -4,7 +4,7 @@ title: about
 nav_order: 1
 permalink: /
 subtitle: PhD Candidate, Computer Science, EURECOM & Sorbonne Université
-path: "M.Sc. → PhD Candidate (EURECOM & Sorbonne Université)"
+path: "M.Sc (KU Leuven). → PhD Candidate (EURECOM & Sorbonne Université)"
 
 profile:
   align: right
