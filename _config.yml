@@ -8,7 +8,7 @@ middle_name:
 last_name: WEI
 email: fanfu.wei at eurecom.fr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Fanfu WEI — PhD Candidate, CS, EURECOM & Sorbonne université, sophia antipolis. Information Extraction, Knowledge Integration and Neurosymbolic AI.
+  Fanfu WEI — PhD Candidate, CS, EURECOM & Sorbonne université, Sophia Antipolis. Information Extraction, Knowledge Integration and Neurosymbolic AI.
 footer_text: >
   Design adapted from <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: Fanfu WEI, github page  # add your own keywords or leave empty
