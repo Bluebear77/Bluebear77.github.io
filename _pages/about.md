@@ -1,31 +1,32 @@
+```markdown
 ---
 layout: about
 title: about
 nav_order: 1
-#Tirtharaj <strong>Dash</strong>
 permalink: /
-subtitle: Assistant Professor, CS, BITS Pilani, Goa Campus
-path: "PhD (BITS Pilani) &#8594; Postdoc (UC San Diego, Cambridge) &#8594; Faculty (BITS Pilani)"
+subtitle: PhD Candidate, Computer Science, EURECOM & Sorbonne Université
+path: "M.Sc. → PhD Candidate (EURECOM & Sorbonne Université)"
 
 profile:
   align: right
-  image: prof_pic5.jpg
+  image: prof_pic3.jpg
   address: >
-    <p>Office: CC-107</p>
-    <p>BITS Pilani, Goa Campus</p>
-    <p>Goa 403726, India</p>
- 
+    <p>EURECOM</p>
+    <p>Sophia Antipolis, France</p>
+    <p>Email: fanfu.wei at eurecom.fr</p>
+
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor in the Department of Computer Science at <a rel="external nofollow" href="https://www.bits-pilani.ac.in/goa/index.aspx" target="_blank">BITS Pilani, K K Birla Goa Campus</a>. My research is in Neurosymbolic AI, Deep Learning, and AI for Science, with applications primarily in chemistry and biology. I lead the <a href="https://mahi-group.github.io" target="_blank">MAHI Lab</a>; see the lab site for research, openings, and team.
+I am a PhD Candidate in Computer Science at <a rel="external nofollow" href="https://www.eurecom.fr/" target="_blank">EURECOM</a> and <a rel="external nofollow" href="https://www.sorbonne-universite.fr/" target="_blank">Sorbonne Université</a>, based in Sophia Antipolis, France.
 
-Before joining BITS Pilani, I was a Postdoctoral Research Associate at the <a rel="external nofollow" href="https://www.cam.ac.uk/" target="_blank">University of Cambridge, UK</a>, working with <a rel="external nofollow" href="http://sblab.uk/sbornelov.php" target="_blank">Susanne Bornelöv</a> on AI for genomics, and a Postdoctoral Affiliate of Trinity College, Cambridge (now an alumnus). Earlier, I was a Postdoctoral Researcher at the <a rel="external nofollow" href="https://ucsd.edu/" target="_blank">University of California, San Diego</a>, in the <a rel="external nofollow" href="https://sites.google.com/view/debashis-sahoo/" target="_blank">Boolean Lab</a> with Professor <a rel="external nofollow" href="https://sites.google.com/view/debashis-sahoo/members/DebashisSahoo" target="_blank">Debashis Sahoo</a>, applying AI and Boolean analysis to RNA-seq and single-cell data in cancer, inflammatory bowel disease, and macrophage biology.
+My research focuses on **Information Extraction**, **Knowledge Integration**, and **Neurosymbolic AI**. I am interested in developing intelligent systems that combine the strengths of large language models, symbolic reasoning, and structured knowledge to improve knowledge acquisition, integration, and reasoning over complex information. My work spans information extraction from unstructured data, knowledge graph construction and completion, and the integration of neural and symbolic methods for robust and interpretable AI.
 
-I completed my PhD in Computer Science at <a rel="external nofollow" href="https://www.bits-pilani.ac.in/" target="_blank">BITS Pilani</a> in July 2022, supervised by Senior Professor <a rel="external nofollow" href="https://www.bits-pilani.ac.in/goa/ashwin/profile" target="_blank">Ashwin Srinivasan</a>. My thesis, "Inclusion of Symbolic Domain-Knowledge into Deep Neural Networks", developed methods for building deep neural networks from relational data and symbolic domain knowledge, with applications in drug discovery. See <a href="https://tirtharajdash.github.io/myPhD/" target="_blank">this page</a> for more.
+My current research explores how foundation models and symbolic representations can work together to build more reliable, explainable, and knowledge-aware AI systems. I am particularly interested in applications involving scientific knowledge, structured data, and large-scale knowledge bases.
 
-I hold an M.Tech in Computer Science from <a rel="external nofollow" href="http://www.vssut.ac.in/" target="_blank">VSSUT, Burla</a> (2014) and a B.Tech in Information Technology from <a rel="external nofollow" href="http://www.nist.edu" target="_blank">NIST Berhampur</a> (2012), with a Silver Medal in both.
+You can find my publications on my <a href="https://scholar.google.com/citations?user=kTNtKRoAAAAJ" target="_blank" rel="external nofollow"><b>Google Scholar</b></a>, browse my projects on <a href="https://github.com/Bluebear77" target="_blank"><b>GitHub</b></a>, or learn more about my professional background on <a href="https://orcid.org/0009-0008-4397-0492" target="_blank" rel="external nofollow"><b>ORCID</b></a>.
 
-View my <a href="/vitae/TirtharajDash.pdf" target="_blank"><b>Curriculum Vitae</b></a> and <a href="https://scholar.google.com/citations?user=1ZcwKZEAAAAJ" target="_blank" rel="external nofollow"><b>Google Scholar profile</b></a>.
+Feel free to contact me via email at ***. I am always interested in discussing research collaborations, knowledge graphs, information extraction, and neurosymbolic AI.
+```
