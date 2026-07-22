@@ -95,6 +95,24 @@ blockquote {
       margin: 0;
     }
   }
+
+  .profile-social {
+    margin-top: 0.75rem;
+
+    .contact-icons {
+      font-size: 1.5rem;
+      line-height: 1.8;
+
+      a {
+        margin: 0 0.15rem;
+      }
+    }
+
+    .contact-note {
+      margin-top: 0.25rem;
+      font-size: 0.75rem;
+    }
+  }
 }
 
 @media (min-width: 576px) {
