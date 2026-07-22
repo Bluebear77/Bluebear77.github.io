@@ -4,7 +4,6 @@ title: about
 nav_order: 1
 permalink: /
 subtitle: PhD Candidate, Computer Science, EURECOM & Sorbonne Université
-path: "M.Sc (KU Leuven). → PhD Candidate (EURECOM & Sorbonne Université)"
 
 profile:
   align: right
@@ -19,11 +18,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD Candidate in Data Science Department at <a rel="external nofollow" href="https://www.eurecom.fr/" target="_blank">EURECOM</a> and <a rel="external nofollow" href="https://www.sorbonne-universite.fr/" target="_blank">Sorbonne Université</a>, based in Sophia Antipolis, France.
+I am a PhD Candidate in Data Science Department at <a rel="external nofollow" href="https://www.eurecom.fr/" target="_blank">EURECOM</a> and <a rel="external nofollow" href="https://www.sorbonne-universite.fr/" target="_blank">Sorbonne Université</a>, advised by Prof.Raphaël TRONCY<a rel="external nofollow" href="https://www.eurecom.fr/fr/people/troncy-raphael" target="_blank">. My long-term goal is to build Reliable Knowledge Substrates for Intelligent Systems. Currently, my research interests are:
 
-My research focuses on **Information Extraction**, **Knowledge Integration**, and **Neurosymbolic AI**. I am interested in...
+* **Information Extraction** from Text, Tables, and Knowledge Graphs;
+* **Knowledge Integration** from Text, Tables, and Knowledge Graphs;
+* **Knowledge Quality Governance**, including Knowledge Graphs refinement, completion, and updates.
 
-You can find my publications on my <a href="https://scholar.google.com/citations?user=kTNtKRoAAAAJ" target="_blank" rel="external nofollow"><b>Google Scholar</b></a>, browse my projects on <a href="https://github.com/Bluebear77" target="_blank"><b>GitHub</b></a>, or learn more about my professional background on <a href="https://orcid.org/0009-0008-4397-0492" target="_blank" rel="external nofollow"><b>ORCID</b></a>.
+Contact via email at **fanfu.wei AT eurecom dot com**. 
 
-Feel free to contact me via email at ***. I am always interested in discussing research collaborations, knowledge graphs, information extraction, and neurosymbolic AI.
 ```

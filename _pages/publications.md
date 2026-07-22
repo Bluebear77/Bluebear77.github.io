@@ -10,7 +10,7 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 <div class="pub-note">
-This page may not always be up to date. Check my <a rel="external nofollow" href="https://scholar.google.com/citations?user=1ZcwKZEAAAAJ" target="_blank">Google Scholar profile</a> or <a href="https://mahi-group.github.io/publications/" target="_blank">MAHI Lab publications</a>.
+This page may not always be up to date. Check my <a rel="external nofollow" href="https://scholar.google.com/citations?hl=en&user=kTNtKRoAAAAJ" target="_blank">Google Scholar profile</a> or <a href="https://www.eurecom.fr/fr/people/wei-fanfu/publications" target="_blank">EURECOM publications</a>.
 </div>
 
 <div class="publications">
