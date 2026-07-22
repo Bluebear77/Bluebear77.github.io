@@ -25,6 +25,6 @@ I am **Fanfu WEI**, a PhD candidate in the Data Science Department at <a rel="ex
 * **Knowledge Integration** from Text, Tables, and Knowledge Graphs;
 * **Knowledge Quality Governance**, including Knowledge Graphs refinement, completion, and updates.
 
-Contact via email at **fanfu.wei AT eurecom dot com**. 
+Contact via email at **fanfu.wei at eurecom dot com**. 
 
 
