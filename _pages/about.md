@@ -1,13 +1,13 @@
 ---
 layout: about
-title: about
+title: home
 nav_order: 1
 permalink: /
 subtitle: PhD Candidate, Computer Science, EURECOM & Sorbonne Université
 
 profile:
   align: right
-  image: 119409649.png
+  image: IMG_3001.jpg
   address: >
     <p>EURECOM</p>
     <p>Sophia Antipolis, France</p>
@@ -27,4 +27,4 @@ I am **Fanfu WEI**, a PhD candidate in the Data Science Department at <a rel="ex
 
 Contact via email at **fanfu.wei AT eurecom dot com**. 
 
-```
+
