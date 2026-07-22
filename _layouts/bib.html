@@ -73,20 +73,16 @@
           {%- endif -%}
         {%- endfor -%}
 
-        {% if entry.annotation %}
-          <i
-            class="fas fa-info-circle ml-1"
-            tabindex="0"
-            role="button"
-            title="Publication information"
-            data-toggle="popover"
-            data-trigger="hover focus"
-            data-placement="top"
-            data-html="true"
-            data-content="{{ entry.annotation | escape }}"
-          ></i>
-        {% endif %}
-      </div>
+
+      {% if entry.annotation %}
+        <i
+          class="fas fa-info-circle ml-1"
+          tabindex="0"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="{{ entry.annotation | escape }}"
+        ></i>
+      {% endif %}
 
       <!-- Venue and year -->
       {% if entry.type == "article" -%}
