@@ -11,7 +11,7 @@ profile:
   address: >
     <p>EURECOM</p>
     <p>Sophia Antipolis, France</p>
-    <p>Email: fanfu.wei at eurecom.fr</p>
+    
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
