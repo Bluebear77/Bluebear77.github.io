@@ -11,7 +11,7 @@ profile:
   address: >
     <p>EURECOM</p>
     <p>Sophia Antipolis, France</p>
-    <p>Email: fanfu.wei at eurecom.fr</p>
+    
     
     
 
