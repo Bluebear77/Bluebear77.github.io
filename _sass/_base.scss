@@ -95,24 +95,6 @@ blockquote {
       margin: 0;
     }
   }
-
-  .profile-social {
-    margin-top: 0.75rem;
-
-    .contact-icons {
-      font-size: 1.5rem;
-      line-height: 1.8;
-
-      a {
-        margin: 0 0.15rem;
-      }
-    }
-
-    .contact-note {
-      margin-top: 0.25rem;
-      font-size: 0.75rem;
-    }
-  }
 }
 
 @media (min-width: 576px) {
@@ -263,26 +245,32 @@ blockquote {
   color: var(--global-text-color);
 }
 
-// Social (bottom)
+// Social icons below the profile picture
 
 .social {
   text-align: center;
-  .contact-icons {
-    font-size: 4rem;
+
+  .contact-icons-profile {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
+
     a {
+      margin: 0 0.1rem;
+      text-decoration: none;
+
       i::before {
-        color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
+
       &:hover {
+        text-decoration: none;
+
         i::before {
           color: var(--global-theme-color);
         }
       }
     }
-  }
-  .contact-note {
-    font-size: 0.8rem;
   }
 }
 
