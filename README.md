@@ -1,1 +1,1 @@
-Welcome to my [personal homepage](https://weifanfu.github.io).
+Welcome to my [personal homepage](https://bluebear77.github.io/).
