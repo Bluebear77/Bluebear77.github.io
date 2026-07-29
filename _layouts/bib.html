@@ -33,7 +33,7 @@
       {%- endif -%}
     {%- endif -%}
 
-
+ 
 <!-- Publication preview -->
 {%- if entry.preview -%}
   {%- if entry.preview contains '://' -%}
@@ -284,6 +284,11 @@
       role="button"
       target="_blank"
       rel="noopener noreferrer"
+      style="
+        border-color: rgba(36, 204, 69, 1);
+        background-color: rgba(36, 204, 69, 0.1);
+        color: rgba(24, 150, 50, 1);
+      "
     >
       Code
     </a>
