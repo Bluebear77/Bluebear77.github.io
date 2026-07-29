@@ -5,14 +5,16 @@
 <!-- _layouts/bib.html -->
 
 <div class="row">
-  <!-- Venue abbreviation -->
+  <!-- Venue badge and publication preview -->
   <div class="col-sm-2 abbr">
     {%- if entry.abbr -%}
       {%- if site.data.venues[entry.abbr] -%}
         {%- assign venue = site.data.venues[entry.abbr] -%}
         <abbr
           class="badge rounded"
-          {% if venue.color %}style="background-color: {{ venue.color }};"{% endif %}
+          {% if venue.color %}
+            style="background-color: {{ venue.color }};"
+          {% endif %}
         >
           {% if venue.url %}
             <a
@@ -30,6 +32,35 @@
         <abbr class="badge rounded">{{ entry.abbr }}</abbr>
       {%- endif -%}
     {%- endif -%}
+
+```
+<!-- Publication preview -->
+{%- if entry.preview -%}
+  {%- if entry.preview contains '://' -%}
+    {%- assign preview_path = entry.preview -%}
+  {%- elsif entry.preview contains '/' -%}
+    {%- assign preview_path = entry.preview | prepend: '/' -%}
+  {%- else -%}
+    {%- assign preview_path = entry.preview | prepend: '/assets/img/' -%}
+  {%- endif -%}
+
+  <a
+    href="{{ entry.url | default: preview_path }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="publication-preview-link"
+  >
+    <img
+      src="{{ preview_path | relative_url }}"
+      class="preview z-depth-1"
+      alt="Preview of {{ entry.title | escape }}"
+      title="{{ entry.title | escape }}"
+      loading="lazy"
+    >
+  </a>
+{%- endif -%}
+```
+
   </div>
 
   <!-- Publication content -->
@@ -39,7 +70,7 @@
       {{ reference }}
     {% else %}
 
-
+```
   <!-- Title -->
   <div class="title">
     {% if entry.url %}
@@ -105,9 +136,10 @@
         class="fas fa-info-circle ml-1"
         tabindex="0"
         role="button"
-        data-toggle="tooltip"
+        data-toggle="popover"
         data-placement="top"
-        title="{{ entry.annotation | escape }}"
+        data-html="true"
+        data-content="{{ entry.annotation | escape }}"
         aria-label="{{ entry.annotation | escape }}"
       ></i>
     {%- endif -%}
@@ -141,7 +173,7 @@
   </div>
 {% endif %}
 
-<!-- Links -->
+<!-- Links and buttons -->
 <div class="links">
   {% if entry.abstract %}
     <a class="abstract btn btn-sm z-depth-0" role="button">
@@ -325,7 +357,7 @@
 {% if entry.bibtex_show %}
   <div class="bibtex hidden">
     {% highlight bibtex %}
-
+```
 
 {{ entry.bibtex }}
 {% endhighlight %} </div>
