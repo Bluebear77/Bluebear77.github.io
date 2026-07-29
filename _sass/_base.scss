@@ -662,3 +662,116 @@ html {
 .muted {
   color: var(--global-text-color-light);
 }
+
+/* Typography sizing similar to Pranav's website */
+
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Homepage and normal page text */
+.post,
+.post article,
+.page-content {
+  p,
+  li {
+    font-size: 1.05rem;
+    line-height: 1.65;
+  }
+}
+
+/* Main page title */
+.post-title,
+header.post-header h1 {
+  font-size: 2.5rem;
+}
+
+/* Section headings */
+.post h2,
+.page-content h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+}
+
+.post h3,
+.page-content h3 {
+  font-size: 1.4rem;
+}
+
+/* Profile information */
+.profile {
+  .address,
+  .more-info {
+    font-size: 1rem;
+  }
+}
+
+/* Publication entries */
+.publications {
+  .title {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+
+  .author {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .periodical {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .links .btn {
+    font-size: 0.875rem;
+  }
+
+  h2.year,
+  h2.bibliography {
+    font-size: 1.6rem;
+  }
+}
+
+/* Navigation bar */
+.navbar {
+  font-size: 1rem;
+}
+
+/* Small screens */
+@media (max-width: 576px) {
+  body {
+    font-size: 0.98rem;
+  }
+
+  .post,
+  .post article,
+  .page-content {
+    p,
+    li {
+      font-size: 1rem;
+    }
+  }
+
+  .post-title,
+  header.post-header h1 {
+    font-size: 2rem;
+  }
+
+  .post h2,
+  .page-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .publications {
+    .title {
+      font-size: 1.05rem;
+    }
+
+    .author,
+    .periodical {
+      font-size: 0.95rem;
+    }
+  }
+}
