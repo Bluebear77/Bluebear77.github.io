@@ -33,7 +33,7 @@
       {%- endif -%}
     {%- endif -%}
 
-```
+
 <!-- Publication preview -->
 {%- if entry.preview -%}
   {%- if entry.preview contains '://' -%}
@@ -59,7 +59,7 @@
     >
   </a>
 {%- endif -%}
-```
+ 
 
   </div>
 
@@ -70,7 +70,7 @@
       {{ reference }}
     {% else %}
 
-```
+ 
   <!-- Title -->
   <div class="title">
     {% if entry.url %}
@@ -357,7 +357,7 @@
 {% if entry.bibtex_show %}
   <div class="bibtex hidden">
     {% highlight bibtex %}
-```
+ 
 
 {{ entry.bibtex }}
 {% endhighlight %} </div>
