@@ -464,7 +464,7 @@ footer.sticky-bottom {
         .row {
           display: flex;
           flex-wrap: nowrap;
-          align-items: baseline;
+          align-items: flex-start;
         }
         .abbr {
           flex: 0 0 6.5rem;
@@ -478,8 +478,25 @@ footer.sticky-bottom {
         }
       }
       .abbr {
-        height: 2rem;
+        height: auto;
         margin-bottom: 0.5rem;
+
+        .publication-preview-link {
+          display: block;
+          width: 100%;
+          margin-top: 0.25rem;
+          overflow: hidden;
+          text-decoration: none;
+        }
+
+        .preview {
+          display: block;
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+          object-fit: contain;
+        }
+
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
