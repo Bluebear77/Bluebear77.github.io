@@ -542,6 +542,32 @@ footer.sticky-bottom {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
           }
+
+          // Nature colour-blind-safe palette: use colour as an accent,
+          // while keeping the label itself high-contrast.
+          &.btn-slides {
+            color: #000000;
+            border-color: #0072b2;
+            background-color: rgba(0, 114, 178, 0.12);
+
+            &:hover {
+              color: #000000;
+              border-color: #0072b2;
+              background-color: rgba(0, 114, 178, 0.20);
+            }
+          }
+
+          &.btn-video {
+            color: #000000;
+            border-color: #cc79a7;
+            background-color: rgba(204, 121, 167, 0.12);
+
+            &:hover {
+              color: #000000;
+              border-color: #cc79a7;
+              background-color: rgba(204, 121, 167, 0.20);
+            }
+          }
         }
       }
       .hidden {
@@ -772,6 +798,21 @@ header.post-header h1 {
     .author,
     .periodical {
       font-size: 0.95rem;
+    }
+  }
+}
+
+
+/* Dark-theme contrast for Nature-style media buttons */
+html[data-theme='dark'] {
+  .publications ol.bibliography li .links a.btn {
+    &.btn-slides,
+    &.btn-video {
+      color: #ffffff;
+
+      &:hover {
+        color: #ffffff;
+      }
     }
   }
 }
