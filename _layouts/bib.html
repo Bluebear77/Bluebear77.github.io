@@ -338,6 +338,18 @@
     {% endif %}
   {% endif %}
 
+  {% if entry.video %}
+    <a
+      href="{{ entry.video }}"
+      class="btn btn-sm z-depth-0"
+      role="button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Video
+    </a>
+  {% endif %}
+
   {% if entry.website %}
     <a
       href="{{ entry.website }}"
